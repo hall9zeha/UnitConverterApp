@@ -26,6 +26,8 @@ Simple Unit Converter es una  aplicación(reto técnico) de conversión de unida
 * [Material components and Material Design](https://material.io/components)
 * [Material 3](https://m3.material.io/)
 * [Dagger Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+* [Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started)
+* [Glide](https://developer.android.com/training/dependency-injection/hilt-android) 
 
 # Screenshots :framed_picture:
 |  |  |  |
