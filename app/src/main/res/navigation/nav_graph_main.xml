@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/mainFragmentItem">
+
+    <fragment
+        android:id="@+id/mainFragmentItem"
+        android:name="com.barryzea.simpleadmob.view.measureListFragment"
+        android:label="Measures"
+        tools:layout="@layout/fragment_measure_list" />
+    <fragment
+        android:id="@+id/historyFragmentItem"
+        android:name="com.barryzea.simpleadmob.view.HistoryFragment"
+        android:label="Settings" />
+    <fragment
+        android:id="@+id/settingsFragmentItem"
+        android:name="com.barryzea.simpleadmob.view.SettingsFragment"
+        android:label="Settings" />
+</navigation>
