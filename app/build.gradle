@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.barryzea.simpleadmob'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.barryzea.simpleadmob"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0.0"
 
@@ -33,6 +33,7 @@ android {
     }
     buildFeatures{
         viewBinding = true
+        buildConfig = true
     }
 }
 def retrofit_version = "2.9.0"
