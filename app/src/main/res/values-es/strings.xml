@@ -191,7 +191,7 @@
     <string name="rateUsMsg">Califica la aplicación</string>
     <string name="nightThemeMsg">Activar tema oscuro</string>
     <string name="theme">Tema</string>
-    <string name="aboutThisBody">Simple Unit Converter, aplicación para conversión de unidades de medida más utilizadas. \n Desarrollada por Barry Zea H.  Versión 1.0.0</string>
+    <string name="aboutThisBody">Simple Unit Converter, aplicación para conversión de unidades de medida más utilizadas. \n Desarrollada por Barry Zea H.  Versión %1$s</string>
     <string name="Accept">Aceptar</string>
     <string name="equalSymbol">=</string>
 </resources>

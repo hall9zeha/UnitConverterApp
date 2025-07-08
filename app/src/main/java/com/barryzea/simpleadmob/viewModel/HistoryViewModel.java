@@ -17,7 +17,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel;
 
 /****
  * Project SimpleAdMob
- * Created by Barry Zea H. on 25/3/23.
+ * Created by Barry Zea H. on 20/3/23.
  * Copyright (c)  All rights reserved.
  ***/
 @HiltViewModel

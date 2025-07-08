@@ -19,7 +19,7 @@ import dagger.hilt.components.SingletonComponent;
 
 /****
  * Project SimpleAdMob
- * Created by Barry Zea H. on 25/3/23.
+ * Created by Barry Zea H. on 20/3/23.
  * Copyright (c)  All rights reserved.
  ***/
 @Module

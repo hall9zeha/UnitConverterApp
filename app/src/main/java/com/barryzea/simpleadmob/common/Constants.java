@@ -2,7 +2,7 @@ package com.barryzea.simpleadmob.common;
 
 /****
  * SimpleAdMob
- * Created by Barry Zea H. on 25/3/23.
+ * Created by Barry Zea H. on 18/02/23.
  * Copyright (c)  All rights reserved.
  ***/
 public class Constants {

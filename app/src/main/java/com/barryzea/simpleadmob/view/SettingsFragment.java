@@ -4,15 +4,19 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreference;
 import androidx.preference.SwitchPreferenceCompat;
 
+import com.barryzea.simpleadmob.BuildConfig;
 import com.barryzea.simpleadmob.R;
+import com.barryzea.simpleadmob.databinding.AboutThisLayoutBinding;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class SettingsFragment extends PreferenceFragmentCompat {
@@ -47,8 +51,11 @@ public class SettingsFragment extends PreferenceFragmentCompat {
 
     }
     private void showDialogAboutThis(){
+
+        AboutThisLayoutBinding bind = AboutThisLayoutBinding.inflate(getLayoutInflater());
+        bind.tvDescription.setText(getString(R.string.aboutThisBody, BuildConfig.VERSION_NAME));
         new MaterialAlertDialogBuilder(getActivity())
-                .setView(R.layout.about_this_layout)
+                .setView(bind.getRoot())
                 .setPositiveButton(getString(R.string.Accept), (dialog, which) -> {
                     dialog.dismiss();
                 }).show();

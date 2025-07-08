@@ -38,9 +38,10 @@
     <style name="DefaultNumberPickerTheme" parent="">
         <item name="colorControlNormal">@color/md_secondary</item>
     </style>
-    <style name="splashScreenTheme" parent="Theme.SimpleAdMob">
-        <item name="android:windowBackground">@drawable/splash_screen</item>
-        <item name="android:statusBarColor">@color/splash_bg</item>
-        <item name="android:windowLightStatusBar" tools:ignore="newApi">false</item>
+    <style name="splashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.SimpleAdMob</item>
     </style>
+
 </resources>

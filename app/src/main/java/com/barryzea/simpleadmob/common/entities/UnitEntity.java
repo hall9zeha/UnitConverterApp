@@ -2,7 +2,7 @@ package com.barryzea.simpleadmob.common.entities;
 
 /****
  * Project SimpleAdMob
- * Created by Barry Zea H. on 25/3/23.
+ * Created by Barry Zea H. on 15/3/23.
  * Copyright (c)  All rights reserved.
  ***/
 public class UnitEntity {

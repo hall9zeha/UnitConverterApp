@@ -7,10 +7,10 @@ import com.barryzea.simpleadmob.common.entities.HistoryEntity;
 
 /****
  * Project SimpleAdMob
- * Created by Barry Zea H. on 25/3/23.
+ * Created by Barry Zea H. on 10/3/23.
  * Copyright (c)  All rights reserved.
  ***/
-@Database(entities = {HistoryEntity.class},version = 1)
+@Database(entities = {HistoryEntity.class},version = 1,exportSchema = false)
 public abstract class HistoryDatabase extends RoomDatabase {
     public abstract HistoryDAO historyDao();
 }

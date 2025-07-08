@@ -7,7 +7,7 @@ import java.util.Objects;
 
 /****
  * Project SimpleAdMob
- * Created by Barry Zea H. on 25/3/23.
+ * Created by Barry Zea H. on 20/3/23.
  * Copyright (c)  All rights reserved.
  ***/
 @Entity
@@ -27,7 +27,7 @@ public class HistoryEntity {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

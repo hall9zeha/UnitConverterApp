@@ -185,7 +185,7 @@
     <string name="rateUsMsg">Rate the application</string>
     <string name="nightThemeMsg">Enable theme dark</string>
     <string name="theme">Theme</string>
-    <string name="aboutThisBody">Simple Unit Converter, application for converting the most used units of measure. \n Developed by Barry Zea H.  Version 1.0.0</string>
+    <string name="aboutThisBody">Simple Unit Converter, application for converting the most used units of measure. \n Developed by Barry Zea H. Version %1$s</string>
     <string name="Accept">Accept</string>
     <string name="equalSymbol">=</string>
 

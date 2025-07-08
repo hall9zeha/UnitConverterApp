@@ -19,7 +19,7 @@ import java.util.List;
 
 /****
  * Project SimpleAdMob
- * Created by Barry Zea H. on 25/3/23.
+ * Created by Barry Zea H. on 22/3/23.
  * Copyright (c)  All rights reserved.
  ***/
 public class MeasureAdapter extends RecyclerView.Adapter<MeasureAdapter.ViewHolder> {
