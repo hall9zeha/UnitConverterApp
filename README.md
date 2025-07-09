@@ -1,5 +1,5 @@
 # UnitConverterApp
-<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/functions_graphic.png" alt="drawing" width="100%" height="100%"/>
+<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/functions_graphic.png" alt="drawing" width="100%"/>
 
 <img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" align="left"
 width="20%"  >
@@ -32,5 +32,5 @@ Simple Unit Converter es una  aplicación(reto técnico) de conversión de unida
 # Screenshots :framed_picture:
 |  |  |  |
 |------|------|------|
-|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen1.jpg" alt="drawing" width="100%" height="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen2.jpg" alt="drawing" width="100%" height="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen3.jpg" alt="drawing" width="100%" height="100%"/>|
-|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen4.jpg" alt="drawing" width="100%" height="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen5.jpg" alt="drawing" width="100%" height="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen6.jpg" alt="drawing" width="100%" height="100%"/>|
+|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen1.jpg" alt="drawing" width="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen2.jpg" alt="drawing" width="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen3.jpg" alt="drawing" width="100%"/>|
+|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen4.jpg" alt="drawing" width="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen5.jpg" alt="drawing" width="100%"/>|<img src="https://github.com/hall9zeha/UnitConverterApp/blob/main/screenshots/screen6.jpg" alt="drawing" width="100%"/>|
