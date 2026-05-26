@@ -27,6 +27,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.barryzea.simpleadmob.R;
 import com.barryzea.simpleadmob.databinding.ActivityMainBinding;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import dagger.hilt.EntryPoint;
 import dagger.hilt.android.AndroidEntryPoint;
@@ -55,11 +56,28 @@ public class MainActivity extends AppCompatActivity {
                 return insets;
             }
         });
+        setupNavInsets();
         //onActivityResult();
-         setUpNavController();
+        setUpNavController();
 
     }
+    private void setupNavInsets(){
+        BottomNavigationView bottomNav = bind.bottomNavView;
+        int initialLeft = bottomNav.getPaddingLeft();
+        int initialTop = bottomNav.getPaddingTop();
+        int initialRight = bottomNav.getPaddingRight();
+        int initialBottom = bottomNav.getPaddingBottom();
 
+        ViewCompat.setOnApplyWindowInsetsListener(bottomNav, new OnApplyWindowInsetsListener() {
+            @Override
+            public @org.jspecify.annotations.NonNull WindowInsetsCompat onApplyWindowInsets(@org.jspecify.annotations.NonNull View v, @org.jspecify.annotations.NonNull WindowInsetsCompat insets) {
+                v.setPadding(initialLeft,initialTop,initialRight,initialBottom);
+                return insets;
+            }
+        });
+        ViewCompat.requestApplyInsets(bottomNav);
+
+    }
     private void setUpNavController(){
         navController = Navigation.findNavController(this,R.id.navHostFragment);
         AppBarConfiguration appBarConfig= new AppBarConfiguration.Builder(

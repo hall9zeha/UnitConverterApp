@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace 'com.barryzea.simpleadmob'
-    compileSdk 35
+    compileSdk = 37
 
     defaultConfig {
         applicationId "com.barryzea.simpleadmob"
-        minSdk 21
-        targetSdk 35
+        minSdk 23
+        targetSdk 37
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -34,26 +34,27 @@ android {
     buildFeatures{
         viewBinding = true
         buildConfig = true
+        resValues = true
     }
 }
-def retrofit_version = "2.9.0"
+def retrofit_version = "3.0.0"
 def okhttp3_version = "4.9.1"
-def room_version="2.5.0"
+def room_version="2.8.4"
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
     //En versiones como 1.8.0 de material el renderizado al diseñar las vistas en xml no  muestran la previsualización
     //es por eso que uso la versión 1.7.0
-    implementation 'com.google.android.material:material:1.7.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'com.google.android.material:material:1.14.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'androidx.preference:preference:1.2.1'
 
-    implementation 'androidx.navigation:navigation-fragment:2.5.3'
-    implementation 'androidx.navigation:navigation-ui:2.5.3'
+    implementation 'androidx.navigation:navigation-fragment:2.9.8'
+    implementation 'androidx.navigation:navigation-ui:2.9.8'
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.7.0'
 
     //Retrofit
     //implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3_version"
@@ -65,16 +66,16 @@ dependencies {
     annotationProcessor "androidx.room:room-compiler:$room_version"
 
     //dagger hilt
-    implementation 'com.google.dagger:hilt-android:2.44'
-    annotationProcessor 'com.google.dagger:hilt-compiler:2.44'
+    implementation 'com.google.dagger:hilt-android:2.59.2'
+    annotationProcessor 'com.google.dagger:hilt-compiler:2.59.2'
 
     //Glide
-    implementation 'com.github.bumptech.glide:glide:4.15.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.0'
+    implementation 'com.github.bumptech.glide:glide:5.0.7'
+    annotationProcessor 'com.github.bumptech.glide:compiler:5.0.7'
 
     //Splash screen
 
-    implementation 'androidx.core:core-splashscreen:1.0.1'
+    implementation 'androidx.core:core-splashscreen:1.2.0'
 
 
 }
